@@ -6,3 +6,10 @@ openai==1.1.1
 matplotlib==3.8.1
 llama_index==0.9.12
 langchain==0.0.346
+torch
+torchvision
+qdrant_client
+ftfy
+regex
+torch
+torchvision
