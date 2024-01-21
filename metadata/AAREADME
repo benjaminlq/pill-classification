@@ -1,0 +1,67 @@
+This directory contains pill images and metadata from the Computational Photography 
+Project for Pill Identification (C3PI). For more information see: 
+https://wayback.archive-it.org/7867/20190423182937/https://lhncbc.nlm.nih.gov/project/c3pi-computational-photography-project-pill-identification
+
+Questions and Answers
+---------------------
+
+Q: What pill images are available?
+A: There are two sets of pill images in the archive - 
+   1) a set of over 4000 high-quality reference pill images, that are available 
+      using the RxImage API, and
+   2) a set of over 133,000 consumer-grade pill images that were photographed as
+      part of the project. The Word document RxImageImageLayouts.docx
+      contains visual examples of the different types of images available.
+
+Q: How do I get the pill images that are available in the RxImage API?
+A: Download the rximage.zip file in this directory.  It contains > 4000 high-quality
+   reference pill images, available in 6 resolutions, and associated data from the
+   the RxImage API.  The zip file size is 6.9 Gigabytes, so a fast internet connection
+   is recommended.
+
+Q: How would I find a particular pill (for example a Lipitor pill)?
+A: The first step would be to download a file containing the directory of images.
+   For the consumer-grade images, two different formats are available
+   a) directory_consumer_grade_images.xlsx - an Excel file
+   b) directory_consumer_grade_images.txt - a text format file (bar "|" delimited fields)
+   
+   Some sample lines from the text format file
+   00002322730|1|PillProjectDisc98/images/PRNJ-AXZIQ!HUQKJJBP_DV44ST0KN9.CR2|C3PI_Reference|STRATTERA 10MG
+   00002322730|1|PillProjectDisc10/images/79U-YY6M1UUR6F127ZMACIWPEEXHLB.JPG|C3PI_Test|STRATTERA 10MG
+ 
+   The fields are delimited by "|" and are described as follows:
+    1 - National Drug Code (NDC) in 11 digit normalized format
+    2 - part #  
+    3 - location of image
+    4 - image type - download RxImageImageLayouts.docx to get some visual examples of each type
+    5 - name - description of drug
+
+   You can then search the file looking for names containing Lipitor.  There are 148 images
+   containing Lipitor.
+   Here is one of the Lipitor records listed:
+
+   00071015523|1|PillProjectDisc105/images/VTMV34C1TDQI4HVRHIGFDOJ9XQXI4Y.JPG|C3PI_Test|LIPITOR 10MG TABLETS
+
+   The image for this record is located in PillProjectDisc105/images.  Navigate to this directory and
+   find the image to download.
+
+   For the reference images, an Excel file name directory_reference_images.xls
+   lists the images available.  To get these images download the rximage.zip
+   file.
+
+Q: How do I get the associated data for the pills?
+A: The associated data for the consumer-grade image is located in the ALLXML directory.
+   There is one XML file per image directory. So, for example, if the image you retrieved
+   came from PillProjectDisc105, then associated data for that image is contained in
+   ALLXML/PillProjectDisc105.xml.  Note that this XML file contains associated data
+   for all the images in PillProjectDisc105.
+
+   The associated data for the reference images is contained in the rximage.zip file.
+
+Q: How much disk space is required to download all the consumer-grade images?
+A: You would need 2.6 terabytes of disk space!
+
+Q: Will this site be updated with new images?
+A: No, the project was discontinued in 2018, and there are no plans to add any new images.
+
+
