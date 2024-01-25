@@ -5,7 +5,9 @@ __pycache__/
 
 # Data & API Keys
 auth/
-data/
+data/consumer/
+data/reference/
+data/rximage/
 
 # C extensions
 *.so
