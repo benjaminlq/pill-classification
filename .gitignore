@@ -8,6 +8,7 @@ auth/
 data/consumer/
 data/reference/
 data/rximage/
+data/embeddings/
 
 # C extensions
 *.so
