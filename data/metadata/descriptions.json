@@ -1,0 +1,35 @@
+{
+    "SHAPE_DESCRIPTION" : {
+        "BULLET" : "Has the shape of a cylinder when viewing the capsule from a point perpendicular to its longest side, with a point at one end. The bullet shape is synonymous with torpedo shape",
+        "CAPSULE" : "Has the shape of a capsule when viewing the capsule from a point perpendicular to its longest side. The capsule shape is reserved for two-part capsules and banded two-part capsules.",
+        "CLOVER" : "Hast the stylized shape, of clover, having three or four leaves with or without the stem", 
+        "DIAMOND" : "Has the shape of four distinct sides making a parallelogram with two inner obtuse angles and two inner acute angles",
+        "DOUBLE CIRCLE" : "Has the shape of two circles joined together, and usually overlapping", 
+        "FREEFORM" : "Does not have any standard shape (free-form) which does not have 3 or more distinct sides and do",
+        "GEAR" : "Has the two dimensional shape of a toothed wheel of a machine part.", 
+        "HEPTAGON" : "Has the shape with seven distinct sides", 
+        "HEXAGON (6 sided)" : "Has the shape with six distinct sides",
+        "OCTAGON (8 sided)" : "Has The shape with eight distinct sides",
+        "OVAL" : "Has the shape of either an oval or an ellipse", 
+        "PENTAGON (5 sided)" : "Has the shape with five distinct sides",
+        "RECTANGLE" : "Has the shape with four distinct sides and four right angles but is not a square",
+        "ROUND" : "Has the shape of a circle/spherical",
+        "SEMI-CIRCLE" : "Has the shape of half of a circle or half of an oval",
+        "SQUARE" : "Has the shape with four distinct and equal sides with four right angles",
+        "TEAR" : "Has the shape of a tear/drop of water. ",
+        "TRAPEZOID" : "Has the shape with four distinct sides whereas only two of the sides are parallel",
+        "TRIANGLE" : "Has the shape with three distinct sides" },
+    
+    "SCORE_DESCRIPTION" : {
+        "1": "Pill is not scored to break into smaller dosage parts",
+        "2": "Pill can be broken into two (2) equal dosage parts",
+        "3": "Pill can typically be broken into two (2) or three (3) equal dosage parts",
+        "4": "Pill can typically be broken into two (2) or four (4) equal dosage parts"
+    },
+    
+    "IMPRINT_TYPE_DESCRIPTION" : {
+        "DEBOSSED": "Imprint is depressed into the surface of the pill", 
+        "BOSSED": "Imprint is raised up from the surface of the pill",
+        "PRINTED": "Imprint is printed onto the surface of the pill"
+    }
+}
